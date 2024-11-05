@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import hogs from './porkers_data'; 
-import Nav from './components/Nav';
-import HogTile from './components/HogTile';
-import HogDetails from './components/HogDetails';
-import HogFilter from './components/HogFilter';
-import HogSort from './components/HogSort';
-import HogForm from './components/AddHog';
+import hogs from '../porkers_data'; 
+import Nav from './Nav';
+import HogTile from './HogTile';
+import HogDetails from './HogDetail';
+import HogFilter from './HogFilter';
+import HogSort from './HogSort';
+import HogForm from './AddHog';
 
 const App = () => {
   const [hogsData, setHogsData] = useState(hogs);
